@@ -1,0 +1,90 @@
+@font-face {
+  font-family: '8-BIT WONDER';
+  src: url('../fonts/8-BIT WONDER.ttf') format('truetype');
+}
+
+body {
+  background-color: black;
+}
+
+#content {
+  background: url('https://media.giphy.com/media/dvreHY4p06lzVSDrvj/giphy.gif')
+    no-repeat fixed center bottom;
+  background-size: cover;
+  background-attachment: scroll !important;
+  border-radius: 100px;
+  width: 97%;
+  margin: auto;
+  height: 98vh;
+  text-align: center;
+}
+
+.title {
+  width: auto;
+  height: auto;
+  margin: auto;
+  top: 50px;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#arcade-title {
+  padding-top: 50px;
+  padding-bottom: 300px;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  font-size: 80px;
+  line-height: 40px;
+  letter-spacing: 5px;
+  font-family: '8-BIT WONDER';
+  text-shadow: -2px 0 0 #fdff2a, -4px 0 0 #df4a42, 2px 0 0 #91fcfe,
+    4px 0 0 #4405fc;
+  animation: blink 1s steps(4, start) infinite;
+}
+@-moz-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-o-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.links {
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1em;
+  white-space: nowrap;
+  width: 100%;
+  margin: auto;
+}
+
+.link {
+  height: 2em;
+  line-height: 0.9em;
+  border-top: 0.05em solid transparent;
+  transition: all 0.5s ease-in-out;
+  padding-bottom: 50px;
+  color: white;
+  font-family: '8-BIT WONDER';
+}
